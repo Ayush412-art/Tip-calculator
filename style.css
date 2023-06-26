@@ -1,0 +1,102 @@
+* {
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+
+  background-color: #2a84a2;
+}
+
+.container {
+
+
+  margin: 100px auto;
+  background-color: #5c5c70;
+  max-width: 50vh;
+  width: 40%;
+  height: 370px;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.items {
+  margin-top: 1.4rem;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+#amount,
+#tip {
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  outline: none;
+  padding: none;
+}
+
+.input {
+  background: #353959;
+  border-radius: 1.5rem;
+  /*1.5 rem and 1.4 rem as standrd*/
+  padding: 0 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.btn-container {
+  background: #36b09b;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+}
+
+.num {
+  margin: 0.8rem;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: none;
+  border: none;
+}
+
+.control {
+  margin-bottom: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+
+.btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: grid;
+  place-items: center;
+  width: 1.3rem;
+}
+
+.totalcontainer {
+  background-color: #f0a50f;
+  display: grid;
+  margin: 2rem -23px;
+  border-radius: 0.5rem;
+  padding: 0 0.8rem;
+
+}
+
+#tpp,
+#ppt {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
